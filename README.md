@@ -33,7 +33,7 @@ This project focuses on full software design, including scope definition, requir
 - Checked-in rooms are no longer shown as available.<br>
 
 # Software Architecture
-**Main Components**
+**<u>Main Components</u>**<br>
 Guest Interface<br>
 -Handles room search, booking form, and check-in interaction.<br>
 
@@ -50,7 +50,7 @@ Notification Service<br>
 
 ---
 
-<u>**Architecture Layers**</u>
+**<u>Architecture Layers</u>**<br>
 Presentation Layer<br>
 -Guest Interface and Notification Service<br>
 
