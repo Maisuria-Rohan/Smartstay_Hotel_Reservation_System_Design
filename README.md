@@ -1,15 +1,15 @@
 # SmartStay Hotel Reservation System – Software Design
 **Overview**
-SmartStay is a hotel reservation system designed to support room availability search, booking, confirmation messaging, and online check-in.
-<br>
+SmartStay is a hotel reservation system designed to support room availability search, booking, confirmation messaging, and online check-in.<br>
+ <br>
 This project focuses on full software design, including scope definition, requirements analysis, architecture design, detailed design, pseudocode, unit testing, and traceability.
 
-**Technologies and methods used**
-UML style component design
-Three tier architecture approach
-Pseudocode for core workflows
-Unit test case design
-Requirements traceability
+**Technologies and methods used**<br>
+UML style component design<br>
+Three tier architecture approach<br>
+Pseudocode for core workflows<br>
+Unit test case design<br>
+Requirements traceability<br>
 
 **Process and how it was built**
 1. Defined scope and out of scope features. 
@@ -34,77 +34,72 @@ Checked-in rooms are no longer shown as available.
 
 # Software Architecture
 **Main Components**
----
 Guest Interface<br>
-Handles room search, booking form, and check-in interaction.
+-Handles room search, booking form, and check-in interaction.
 
 Reservation Processor<br>
-Handles business logic including search, validation, booking, and check-in.
+-Handles business logic including search, validation, booking, and check-in.
 
 Data Manager<br>
-Stores and retrieves booking data and availability.
+-Stores and retrieves booking data and availability.
 
 Notification Service<br>
-Generates and sends booking confirmations. 
+-Generates and sends booking confirmations. 
 
 ---
 
-**Architecture Layers**
+**Architecture Layers**<br>
 Presentation Layer<br>
-Guest Interface and Notification Service
+-Guest Interface and Notification Service<br>
 
 Business Logic Layer<br>
-Reservation Processor
+-Reservation Processor<br>
 
 Data Layer<br>
-Data Manager 
+-Data Manager<br>
 
 ---
 
 # Detailed Design
 
-Functional Decomposition
----
-
-**Reservation Processor**
+****Functional Decomposition****<br>
+**Reservation Processor**<br>
 - Search Available Rooms
 - Validate Booking Info
 - Create Reservation
 - Process Guest Check-In
 
-**Notification Service**
+**Notification Service**<br>
 - Generate Confirmation Message
 - Send Confirmation Email 
 
 ---
 
-# Object-Oriented Design
-**Data Manager**
+**Object-Oriented Design**
+Data Manager
 - Get Available Rooms
 - Store Booking Data
-- Update Check-In Status
+- Update Check-In Status<br>
 
----
 
 **Guest Interface**
 - Get Search Input
 - Show Available Rooms
 - Display Booking Form
-- Display Confirmation
+- Display Confirmation<br>
 
----
 
 **Reservation Processor**
 - Search Rooms
 - Validate Booking
 - Save Booking
-- Check In Guest
+- Check In Guest<br>
 
----
+
 
 **Notification Service**
 - Generate Confirmation
-- Send Email 
+- Send Email <br>
 
 # Core Pseudocode
 **Includes functions:**
@@ -124,6 +119,8 @@ Requirement traceability coverage
 
 # Traceability Matrix
 
+
+---
 
 **What I learned**
 - How to turn a basic idea into a structured system design.
