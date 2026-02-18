@@ -142,3 +142,6 @@ SmartStay is a hotel reservation system designed to support room availability se
 [SmartStay Hotel Reservation System.pdf](https://github.com/user-attachments/files/25401232/SmartStay.Hotel.Reservation.System.pdf)<br>
 [Requirements Document.pdf](https://github.com/user-attachments/files/25401244/Requirements.Document.pdf)<br>
 [Software Pseudo Code.txt](https://github.com/user-attachments/files/25401261/Software.Pseudo.Code.txt)<br>
+[Software Detail Design.pdf](https://github.com/user-attachments/files/25401317/Software.Detail.Design.pdf)<br>
+[Software Architecture.pdf](https://github.com/user-attachments/files/25401316/Software.Architecture.pdf)<br>
+
