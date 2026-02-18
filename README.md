@@ -21,30 +21,30 @@ Requirements traceability<br>
 
 ---
 
-**System Requirements**
-Guests can search available rooms using check-in and check-out dates.
-Guests can book rooms through a structured booking flow.
-Booking form includes dropdowns for room type and dates.
-System stores guest name, email, dates, and room type.
-System displays confirmation page after booking.
-Guests can check in online using reservation ID.
-System updates and saves check-in status.
-System responds within 3 seconds.
-Checked-in rooms are no longer shown as available.
+**System Requirements**<br>
+Guests can search available rooms using check-in and check-out dates.<br>
+Guests can book rooms through a structured booking flow.<br>
+Booking form includes dropdowns for room type and dates.<br>
+System stores guest name, email, dates, and room type.<br>
+System displays confirmation page after booking.<br>
+Guests can check in online using reservation ID.<br>
+System updates and saves check-in status.<br>
+System responds within 3 seconds.<br>
+Checked-in rooms are no longer shown as available.<br>
 
 # Software Architecture
 **Main Components**
 Guest Interface<br>
--Handles room search, booking form, and check-in interaction.
+-Handles room search, booking form, and check-in interaction.<br>
 
 Reservation Processor<br>
--Handles business logic including search, validation, booking, and check-in.
+-Handles business logic including search, validation, booking, and check-in.<br>
 
 Data Manager<br>
--Stores and retrieves booking data and availability.
+-Stores and retrieves booking data and availability.<br>
 
 Notification Service<br>
--Generates and sends booking confirmations. 
+-Generates and sends booking confirmations. <br>
 
 ---
 
