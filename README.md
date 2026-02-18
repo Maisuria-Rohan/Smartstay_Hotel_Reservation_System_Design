@@ -45,6 +45,8 @@ Data Manager<br>
 
 Notification Service<br>
 -Generates and sends booking confirmations. <br>
+                                             
+<img width="1122" height="732" alt="Screenshot 2026-02-18 at 3 29 39 PM" src="https://github.com/user-attachments/assets/f2c1fb54-9894-4771-95b1-71234c85c139" />
 
 ---
 
@@ -68,19 +70,26 @@ Data Layer<br>
 - Validate Booking Info
 - Create Reservation
 - Process Guest Check-In
+  <br>
+<img width="1156" height="542" alt="Screenshot 2026-02-18 at 3 30 45 PM" src="https://github.com/user-attachments/assets/db7f00ce-5f05-4c73-86ac-f7d2bcffb5ee" /><br>
+
+
 
 **Notification Service**<br>
 - Generate Confirmation Message
 - Send Confirmation Email 
+  <br>
+<img width="890" height="496" alt="Screenshot 2026-02-18 at 3 31 36 PM" src="https://github.com/user-attachments/assets/c41d14c9-8162-458e-81a9-4c5954d153ec" /><br>
 
+  
 ---
 
 **Object-Oriented Design**
-Data Manager
+--
+**Data Manager**
 - Get Available Rooms
 - Store Booking Data
 - Update Check-In Status<br>
-
 
 **Guest Interface**
 - Get Search Input
@@ -88,18 +97,18 @@ Data Manager
 - Display Booking Form
 - Display Confirmation<br>
 
-
 **Reservation Processor**
 - Search Rooms
 - Validate Booking
 - Save Booking
 - Check In Guest<br>
 
-
-
 **Notification Service**
 - Generate Confirmation
 - Send Email <br>
+  <br>
+<img width="1244" height="692" alt="Screenshot 2026-02-18 at 3 32 55 PM" src="https://github.com/user-attachments/assets/026f67c5-83bc-48c7-8807-60e98c7f5471" /><br>
+
 
 # Core Pseudocode
 **Includes functions:**
@@ -112,12 +121,13 @@ NotificationService.sendEmail
 
 # Unit Testing
 **Example test case validates:**
-Valid booking flow
-Booking storage
-Confirmation message generation
-Requirement traceability coverage 
+- Valid booking flow
+- Booking storage
+- Confirmation message generation
+- Requirement traceability coverage 
 
 # Traceability Matrix
+<img width="1024" height="328" alt="Screenshot 2026-02-18 at 3 27 43 PM" src="https://github.com/user-attachments/assets/6ebc2a90-2eb4-4fb9-b407-e42b1ef6c7f1" />
 
 
 ---
@@ -128,9 +138,9 @@ Requirement traceability coverage
 - How to separate UI, business logic, and data management in a simple architecture. 
 
 **How it could be improved**
-Add a real database schema and ER diagram.
-Build a working prototype using a web framework.
-Add authentication and role based access for staff features.
-Add payment processing as an optional module.
+- Add a real database schema and ER diagram.
+- Build a working prototype using a web framework.
+- Add authentication and role based access for staff features.
+- Add payment processing as an optional module.
 
 **Evidence and files**
