@@ -1,0 +1,50 @@
+// Software Pseudo Code
+
+Function searchRooms(checkInDate, checkOutDate)
+    // Check if dates are provided
+    If checkInDate is empty OR checkOutDate is empty
+        Return "Error: Dates required"
+    Else
+        availableRooms ← DataManager.getAvailableRooms(checkInDate, checkOutDate)
+        Return availableRooms
+
+Function validateBooking(guestInfo)
+    // Make sure guest name and email are filled
+    If guestInfo.name is empty OR guestInfo.email is empty
+        Return false
+    Else
+        Return true
+
+Function saveBooking(guestInfo, roomId, dateRange)
+    // Validate guest info
+    If NOT validateBooking(guestInfo)
+        Return "Invalid Booking Info"
+
+    // Save booking to the system
+    success ← DataManager.storeBookingData(guestInfo, roomId, dateRange)
+
+    If success = true
+        // Send confirmation
+        confirmation ← NotificationService.generateConfirmation(guestInfo)
+        NotificationService.sendEmail(guestInfo.email, confirmation)
+        Return "Booking Confirmed"
+    Else
+        Return "Booking Failed"
+
+
+Function checkInGuest(reservationId)
+    // Update check-in status
+    result ← DataManager.updateCheckInStatus(reservationId)
+
+    If result = true
+        Return "Check-in Complete"
+    Else
+        Return "Check-in Failed"
+
+Function NotificationService.sendEmail(emailAddress, confirmationMessage)
+    If emailAddress is empty OR confirmationMessage is empty
+        Return "Email Failed"
+
+    // Simulate sending confirmation message
+    Send confirmationMessage to emailAddress
+    Return "Email Sent"
