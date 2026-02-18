@@ -5,11 +5,11 @@ SmartStay is a hotel reservation system designed to support room availability se
 This project focuses on full software design, including scope definition, requirements analysis, architecture design, detailed design, pseudocode, unit testing, and traceability.
 
 **Technologies and methods used**<br>
-UML style component design<br>
-Three tier architecture approach<br>
-Pseudocode for core workflows<br>
-Unit test case design<br>
-Requirements traceability<br>
+- UML style component design<br>
+- Three tier architecture approach<br>
+- Pseudocode for core workflows<br>
+- Unit test case design<br>
+- Requirements traceability<br>
 
 **Process and how it was built**
 1. Defined scope and out of scope features. 
@@ -22,15 +22,15 @@ Requirements traceability<br>
 ---
 
 **System Requirements**<br>
-Guests can search available rooms using check-in and check-out dates.<br>
-Guests can book rooms through a structured booking flow.<br>
-Booking form includes dropdowns for room type and dates.<br>
-System stores guest name, email, dates, and room type.<br>
-System displays confirmation page after booking.<br>
-Guests can check in online using reservation ID.<br>
-System updates and saves check-in status.<br>
-System responds within 3 seconds.<br>
-Checked-in rooms are no longer shown as available.<br>
+- Guests can search available rooms using check-in and check-out dates.<br>
+- Guests can book rooms through a structured booking flow.<br>
+- Booking form includes dropdowns for room type and dates.<br>
+- System stores guest name, email, dates, and room type.<br>
+- System displays confirmation page after booking.<br>
+- Guests can check in online using reservation ID.<br>
+- System updates and saves check-in status.<br>
+- System responds within 3 seconds.<br>
+- Checked-in rooms are no longer shown as available.<br>
 
 # Software Architecture
 **Main Components**
