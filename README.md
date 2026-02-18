@@ -50,7 +50,7 @@ Notification Service<br>
 
 ---
 
-**Architecture Layers**<br>
+<u>**Architecture Layers**</u>
 Presentation Layer<br>
 -Guest Interface and Notification Service<br>
 
