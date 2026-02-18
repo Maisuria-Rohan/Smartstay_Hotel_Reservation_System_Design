@@ -1,4 +1,4 @@
-[Software Pseudo Code.txt](https://github.com/user-attachments/files/25401261/Software.Pseudo.Code.txt)# SmartStay Hotel Reservation System – Software Design
+# SmartStay Hotel Reservation System – Software Design
 ## Overview
 SmartStay is a hotel reservation system designed to support room availability search, booking, confirmation messaging, and online check-in. This project focuses on full software design, including scope definition, requirements analysis, architecture design, detailed design, pseudocode, unit testing, and traceability. <br>
 
@@ -140,5 +140,5 @@ SmartStay is a hotel reservation system designed to support room availability se
 
 ## Documents
 [SmartStay Hotel Reservation System.pdf](https://github.com/user-attachments/files/25401232/SmartStay.Hotel.Reservation.System.pdf)<br>
-[Requirements Document.pdf](https://github.com/user-attachments/files/25401244/Requirements.Document.pdf<br>
-
+[Requirements Document.pdf](https://github.com/user-attachments/files/25401244/Requirements.Document.pdf)<br>
+[Software Pseudo Code.txt](https://github.com/user-attachments/files/25401261/Software.Pseudo.Code.txt)<br>
